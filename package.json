@@ -1,0 +1,18 @@
+{
+  "name": "refactoring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "teenytest src/**/*.test.js",
+    "test:watch": "nodemon --watch src --exec yarn test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "nodemon": "^1.19.1",
+    "teenytest": "^5.2.0"
+  }
+}

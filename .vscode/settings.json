@@ -1,0 +1,11 @@
+{
+  "emeraldwalk.runonsave": {
+    "autoClearConsole": false,
+    "commands": [
+      {
+        "match": ".js$",
+        "cmd": "cd ${workspaceRoot} && npm test && git commit -am TCR || git reset --hard"
+      }
+    ]
+  }
+}
